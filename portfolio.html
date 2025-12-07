@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.2.0/css/line.css">
+</head>
+
+<body>
+    <div class="Box">
+        <div class="theme__toggle">
+            <div class="toggle__btn" onclick="toggleTheme()" id="change_mode">
+                <i class="uil uil-moon"></i>
+            </div>
+        </div>
+
+        <header>
+            <h1>Welcome to My Portfolio</h1>
+            <div class="button-group">
+                <a href=""><button class="btn">About</button></a>
+                <a href=""><button class="btn">Skills</button></a>
+                <a href=""><button class="btn">Projects</button></a>
+                <a href=""><button class="btn">Contact</button></a>
+            </div>
+        </header>
+    </div>
+    <main>
+        <div class="box">
+            <section id="About">
+                <h1>Tejeswar ASIT</h1>
+                <img src="teja.jpg" alt="teja.image" height="250px" width="180px">
+                <p>I am a passionate web developer with a focus on front-end technologies</p>
+
+                <p>I am currently studying my final year B.Tech in <em>Audisankara Institute of Technology</em> Gudur.
+                </p>
+                <p>I am learning Java, DSA from kodenest private limited </p>
+                <p>You can <strong>click here</strong> to check What I have learnt in HTML</p>
+            </section>
+        </div>
+
+        <div class="box">
+            <section id="Skills">
+                <h1>My Skills</h1>
+                <ol>
+                    <li>Java</li>
+                    <li>DSA</li>
+                    <li>HTML</li>
+                    <li>Css</li>
+                    <li>Java Script</li>
+                </ol>
+            </section>
+        </div>
+
+        <div class="box">
+            <section id="Projects">
+                <h1>Projects</h1>
+                <div class="table-wrapper">
+                    <table>
+                        <tr>
+                            <th>Project</th>
+                            <th>Description</th>
+                        </tr>
+
+                        <tr>
+                            <td>xyz</td>
+                            <td>abc</td>
+                        </tr>
+
+                        <tr>
+                            <td>ijk</td>
+                            <td>efg</td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+        </div>
+
+        <div class="box">
+            <section id="Contact">
+                <h1>Contact Me</h1>
+                <p><b>Feel free to contact me using the form below.</b< /p>
+                        <form action="">
+                            <label for="name"><b>Name:</b></label>
+                            <input type="text" placeholder="enter your name">
+
+                            <br>
+                            <label for="email"><b>Email:</b></label>
+                            <input type="email" placeholder="type your email">
+
+                            <br>
+                            <b>Choose your gender:</b>
+                            <label for="male">
+                                <input type="radio" name="gender" value="male">Male</label>
+                            <label for="female">
+                                <input type="radio" name="gender" value="female">Female</label><br>
+
+                            <label for="phonenumbber"><b>Phn No:</b></label>
+                            <input type="phone" placeholder="mobile number">
+
+                            <br>
+                            <button type="submit" class="submit">submit</button>
+                        </form>
+            </section>
+        </div>
+    </main>
+    <button class="fixedbtn"><strong>^</strong></button>
+    <footer>
+        <p>© 2025 My portfolio</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
